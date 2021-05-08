@@ -1,9 +1,9 @@
 #include "blockchain.h"
 
 /**
- * block_destroy - frees a block
- * @block: pointer to block to free
- */
+ * block_destroy - Destroys the Block structure
+ * @block: pointer of the said block
+ **/
 void block_destroy(block_t *block)
 {
 	if (!block)
